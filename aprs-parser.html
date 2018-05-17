@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('aprs-parser',{
+        category: 'amateur radio',
+        color: '#E9967A',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "aprs.png",
+        label: function() {
+            return this.name||"aprs-parser";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="aprs-parser">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="aprs-parser">
+    <p>A Node-RED node for parsing APRS packets using the npm-aprs-parser library</p>
+</script>

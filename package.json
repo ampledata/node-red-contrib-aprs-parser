@@ -1,0 +1,30 @@
+{
+  "name": "node-red-contrib-aprs-parser",
+  "version": "0.0.1",
+  "description": "A Node-RED node for parsing APRS packets using the npm-aprs-parser library",
+  "dependencies": {
+    "aprs-parser": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badweather/node-red-contrib-aprs-parser.git"
+  },
+  "keywords": [
+    "aprs",
+    "iot",
+    "hamradio",
+    "amateurradio",
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "aprs-parser": "aprs-parser.js"
+    }
+  },
+  "author": "Brent Weatherall",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/badweather/node-red-contrib-aprs-parser/issues"
+  },
+  "homepage": "https://github.com/badweather/node-red-contrib-aprs-parser#readme"
+}
